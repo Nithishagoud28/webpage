@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: auto;
+        position: sticky;
+        top: 1px;
+        z-index: 1;
+        background-color: black;
+        color: white;
+        width: 120vw;
+      }
+      .navbar p:hover, li a:hover{
+        background-color: rgba(128, 128, 128, 0.338);
+        padding: 10px;
+      }
+      img {
+        justify-content: center;
+        padding: 10px;
+      }
+      #About h3 {
+        margin: auto;
+        width: 90vw;
+        padding: 30px;
+      }
+      .p {
+        margin: auto;
+        margin-left: 350px;
+        width: 55vw;
+      }
+      .p1 {
+        margin: auto;
+        margin-left: 350px;
+        width: 50vw;
+      }
+      .p2 {
+        margin-left: 350px;
+      }
+      .p3 {
+        margin: auto;
+        justify-content: start;
+        margin-left:-320px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      #Eat {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        margin-left: 350px;
+        width: 50vw;
+      }
+      .FYI {
+        margin: auto;
+        margin-left: -200px;
+        width: 55vw;
+        margin-left: 1px;
+      }
+      .Reserve {
+        margin: auto;
+        margin-left: -200px;
+        margin-left: 3px;
+        
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        width: 50vw;
+        margin: auto;
+        margin-left: -200px;
+        margin-left: 1px;
+      }
+      input {
+        height: 30px;
+      }
+      form button {
+        width: 125px;
+        color: white;
+        background-color: black;
+        padding: 5px;
+        border-color: transparent;
+      }
+      button:hover {
+        background-color: gray;
+        cursor: pointer;
+      }
+      .Footer
+      {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        text-align: center;
+       margin-top: 5px;
+      
+
+      }
+      #About {
+        background-color: black;
+        color: white;
+        width: 15vw;
+        margin-top: 20px;
+
+      
+      }
+      h3 {
+        background-color: black;
+        color: white;
+        width: 10vw;
+        margin-top: 20px;
+        text-align: center;
+
+      
+      }
+      .Where {
+        background-color: black;
+        color: white;
+        width: 20vw;
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+        margin-right: -30px;
+        margin-left: 5px;
+      }
+      a{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <p>Home</p>
+      <ul style="display: flex; gap: 50px; flex-wrap: wrap; list-style: none">
+        <li><a href="#About">About</a></li>
+        <li><a href="#MENU">Menu</a></li>
+        <li><a href="#Where">Where</a></li>
+      </ul>
+    </div>
+    <div style="position: relative; display: flex; justify-content: center">
+      <img
+        width="800px"
+        src="https://images.pexels.com/photos/2506993/pexels-photo-2506993.jpeg?cs=srgb&dl=pexels-quark-studio-1159039-2506993.jpg&fm=jpg"
+        alt=""
+      />
+    </div>
+    <div style="margin-left: 40%" id="About"><h2>ABOUT THE CAFE</h2></div>
+    <div class="p">
+      <p>
+        The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit
+        amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <p>
+        In addition to our full espresso and brew bar menu, we serve fresh
+        made-to-order breakfast and lunch sandwiches, as well as a selection of
+        sides and salads and other good stuff.
+      </p>
+    </div>
+    <div class="p1" style="background-color: lightgray">
+      <p>
+        <i
+          >"Use products from nature for what it's worth - but never too early,
+          nor too late." Fresh is the new sweet.</i
+        >
+      </p>
+      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+    </div>
+    <div style="display: flex; position: relative; justify-content: center">
+      <img
+        width="800px"
+        src="https://www.w3schools.com/w3images/coffeeshop.jpg"
+        alt=""
+      />
+    </div>
+    <div class="p2">
+      <p><strong>Opening hours:</strong>everyday from 6am to 5pm</p>
+      <p><strong>Address:</strong>15 Adr street, 5015, NY</p>
+    </div>
+    <div style="margin-left: 40%" id="MENU">
+      <h3>THE MENU</h3>
+    </div>
+    <div id="Eat">
+      <h5>Bread Basket</h5>
+      <p style="background-color: lightgray">
+        Assortment of fresh baked fruit breads and muffins 5.50
+      </p>
+      <h5>Honey Almond Granola with Fruits</h5>
+      <p style="background-color: lightgray">
+        Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+      </p>
+      <h5>Belgian Waffle</h5>
+      <p style="background-color: lightgray">
+        Vanilla flavored batter with malted flour 7.50
+      </p>
+      <h5>Scrambled eggs</h5>
+      <p style="background-color: lightgrey">
+        Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+      </p>
+      <h5>Blueberry Pancakes</h5>
+      <p style="background-color: lightgrey">
+        With syrup, butter and lots of berries 8.50
+      </p>
+    <div style="display: flex; position: relative; justify-content: center">
+      <img
+        width="800px"
+        src="https://www.w3schools.com/w3images/coffeehouse2.jpg"
+        alt=""
+      />
+    </div>
+    <div style="margin-left: 40%" id="Where">
+      <h2  align="center" class="Where">WHERE TO FIND US</h2>
+      <p class="p3">Find us at some address at some place</p>
+    </div>
+    <div style="display: flex; position: relative; justify-content: center">
+      <img
+        width="800px"
+        src="https://www.w3schools.com/w3images/map.jpg"
+        alt=""
+      />
+    </div>
+    <div>
+      <p>
+        <span class="FYI">FYI!:</span> 
+        We offer full-service catering for any
+        event, large or small.
+         We understand your needs and we will cater
+        the food to satisfy
+        the biggerst criteria of them all, both look and taste.
+      </p>
+      <p>
+        <strong class="Reserve">Reserve</strong>a table, ask for today's special
+        or just send us a message:
+      </p>
+    </div>
+    <form action="">
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="HOW MANY PEOPLE" />
+      <input type="datetime-local" />
+      <input type="text" placeholder="message/special requriments" />
+      <button style="">Send message</button>
+    </form>
+    <div class="Footer">
+      <p>Powered by 27R</p>
+    </div>
+  </body>
+</html>
